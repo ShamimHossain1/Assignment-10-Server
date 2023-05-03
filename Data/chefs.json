@@ -2,55 +2,325 @@
     {
         "id": "1",
         "name": "Chef John Smith",
-        "picture": "https://example.com/chef-john-smith.jpg",
+        "picture": "https://cdn.shopify.com/s/files/1/0555/4231/7246/files/about-1_645X.jpg?v=1628774387",
         "bio": "Chef John Smith is a renowned chef with over 20 years of experience in Chinese cuisine. He has worked in top-rated restaurants in China and has won several awards for his culinary skills.",
         "likes": 1000,
-        "num_recipes": 4,
-        "years_experience": 20
+        "num_recipes": 3,
+        "years_experience": 20,
+        "recipe": [
+            {
+                "id": 1,
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "dried chili pepper",
+                    "soy sauce",
+                    "rice wine"
+                ],
+                "cooking_method": "Marinate chicken with soy sauce and rice wine, then stir-fry with dried chili pepper and peanuts.",
+                "rating": 4.5,
+                "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2014/11/kung-pao-chicken-recipe-3.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "tofu",
+                    "bamboo shoots",
+                    "mushrooms",
+                    "eggs",
+                    "vinegar"
+                ],
+                "cooking_method": "Simmer tofu, bamboo shoots, and mushrooms in chicken broth, then add beaten eggs and vinegar.",
+                "rating": 4.0,
+                "image_url": "https://www.seriouseats.com/thmb/mKW8WlJ1KvU5H6U5e6gOfW6jKwE=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/hot-and-sour-soup-15-2500-1-f3e3fa77a20b47c9b98dd03b17ef09b0.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "fermented bean paste",
+                    "Sichuan peppercorns",
+                    "garlic"
+                ],
+                "cooking_method": "Brown ground pork with garlic and Sichuan peppercorns, then stir in fermented bean paste and cubed tofu.",
+                "rating": 4.3,
+                "image_url": "https://www.seriouseats.com/thmb/FIuX9YFWTXVLf0h0QdovJ-HZBrs=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/mapo-tofu-19-2500-2-8a60c92a87af4dfda0a69f9c632126ab.jpg"
+            }
+            
+        ]
     },
     {
         "id": "2",
         "name": "Chef Sarah Lee",
-        "picture": "https://example.com/chef-sarah-lee.jpg",
+        "picture": "https://img.jakpost.net/c/2018/02/15/2018_02_15_40701_1518689821._medium.jpg",
         "bio": "Chef Sarah Lee is a talented chef who specializes in Sichuan cuisine. She has trained under top chefs in China and has a unique approach to cooking that combines traditional techniques with modern flavors.",
         "likes": 750,
-        "num_recipes": 4,
-        "years_experience": 15
+        "num_recipes": 3,
+        "years_experience": 15,
+        "recipe": [
+            {
+                "id": 1,
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "dried chili pepper",
+                    "soy sauce",
+                    "rice wine"
+                ],
+                "cooking_method": "Marinate chicken with soy sauce and rice wine, then stir-fry with dried chili pepper and peanuts.",
+                "rating": 4.5,
+                "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2014/11/kung-pao-chicken-recipe-3.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "tofu",
+                    "bamboo shoots",
+                    "mushrooms",
+                    "eggs",
+                    "vinegar"
+                ],
+                "cooking_method": "Simmer tofu, bamboo shoots, and mushrooms in chicken broth, then add beaten eggs and vinegar.",
+                "rating": 4.0,
+                "image_url": "https://www.seriouseats.com/thmb/mKW8WlJ1KvU5H6U5e6gOfW6jKwE=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/hot-and-sour-soup-15-2500-1-f3e3fa77a20b47c9b98dd03b17ef09b0.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "fermented bean paste",
+                    "Sichuan peppercorns",
+                    "garlic"
+                ],
+                "cooking_method": "Brown ground pork with garlic and Sichuan peppercorns, then stir in fermented bean paste and cubed tofu.",
+                "rating": 4.3,
+                "image_url": "https://www.seriouseats.com/thmb/FIuX9YFWTXVLf0h0QdovJ-HZBrs=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/mapo-tofu-19-2500-2-8a60c92a87af4dfda0a69f9c632126ab.jpg"
+            }
+            
+        ]
     },
     {
         "id": "3",
         "name": "Chef James Wong",
-        "picture": "https://example.com/chef-james-wong.jpg",
+        "picture": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F2a1f8aca-1fde-11e9-bf10-a69b3e42a388.jpg?crop=2250%2C1500%2C0%2C0",
         "bio": "Chef James Wong is a master chef who has been cooking Chinese cuisine for over 30 years. He is known for his authentic Cantonese dishes and his use of fresh ingredients to create bold flavors.",
         "likes": 1200,
-        "num_recipes": 4,
-        "years_experience": 30
+        "num_recipes": 3,
+        "years_experience": 30,
+        "recipe": [
+            {
+                "id": 1,
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "dried chili pepper",
+                    "soy sauce",
+                    "rice wine"
+                ],
+                "cooking_method": "Marinate chicken with soy sauce and rice wine, then stir-fry with dried chili pepper and peanuts.",
+                "rating": 4.5,
+                "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2014/11/kung-pao-chicken-recipe-3.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "tofu",
+                    "bamboo shoots",
+                    "mushrooms",
+                    "eggs",
+                    "vinegar"
+                ],
+                "cooking_method": "Simmer tofu, bamboo shoots, and mushrooms in chicken broth, then add beaten eggs and vinegar.",
+                "rating": 4.0,
+                "image_url": "https://www.seriouseats.com/thmb/mKW8WlJ1KvU5H6U5e6gOfW6jKwE=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/hot-and-sour-soup-15-2500-1-f3e3fa77a20b47c9b98dd03b17ef09b0.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "fermented bean paste",
+                    "Sichuan peppercorns",
+                    "garlic"
+                ],
+                "cooking_method": "Brown ground pork with garlic and Sichuan peppercorns, then stir in fermented bean paste and cubed tofu.",
+                "rating": 4.3,
+                "image_url": "https://www.seriouseats.com/thmb/FIuX9YFWTXVLf0h0QdovJ-HZBrs=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/mapo-tofu-19-2500-2-8a60c92a87af4dfda0a69f9c632126ab.jpg"
+            }
+            
+        ]
     },
     {
         "id": "4",
         "name": "Chef Mei Lin",
-        "picture": "https://example.com/chef-mei-lin.jpg",
+        "picture": "https://st2.depositphotos.com/1005893/8669/i/600/depositphotos_86696896-stock-photo-mature-asian-chinese-chef-holding.jpg",
         "bio": "Chef Mei Lin is a rising star in the culinary world, known for her innovative approach to Chinese cuisine. She has worked in top-rated restaurants in both China and the United States and has won several awards for her unique dishes.",
         "likes": 500,
-        "num_recipes": 4,
-        "years_experience": 10
+        "num_recipes": 3,
+        "years_experience": 10,
+        "recipe": [
+            {
+                "id": 1,
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "dried chili pepper",
+                    "soy sauce",
+                    "rice wine"
+                ],
+                "cooking_method": "Marinate chicken with soy sauce and rice wine, then stir-fry with dried chili pepper and peanuts.",
+                "rating": 4.5,
+                "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2014/11/kung-pao-chicken-recipe-3.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "tofu",
+                    "bamboo shoots",
+                    "mushrooms",
+                    "eggs",
+                    "vinegar"
+                ],
+                "cooking_method": "Simmer tofu, bamboo shoots, and mushrooms in chicken broth, then add beaten eggs and vinegar.",
+                "rating": 4.0,
+                "image_url": "https://www.seriouseats.com/thmb/mKW8WlJ1KvU5H6U5e6gOfW6jKwE=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/hot-and-sour-soup-15-2500-1-f3e3fa77a20b47c9b98dd03b17ef09b0.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "fermented bean paste",
+                    "Sichuan peppercorns",
+                    "garlic"
+                ],
+                "cooking_method": "Brown ground pork with garlic and Sichuan peppercorns, then stir in fermented bean paste and cubed tofu.",
+                "rating": 4.3,
+                "image_url": "https://www.seriouseats.com/thmb/FIuX9YFWTXVLf0h0QdovJ-HZBrs=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/mapo-tofu-19-2500-2-8a60c92a87af4dfda0a69f9c632126ab.jpg"
+            }
+            
+        ]
     },
     {
         "id": "5",
         "name": "Chef David Chen",
-        "picture": "https://example.com/chef-david-chen.jpg",
+        "picture": "https://media.istockphoto.com/id/1175212404/photo/asian-chef-with-dish-at-the-restaurant.jpg?s=612x612&w=0&k=20&c=i1qhN28OljnAvkgvw3unYg0pJyrOfJsif-zF5IB3tBo=",
         "bio": "Chef David Chen is a chef with over 25 years of experience in Chinese cuisine. He has worked in some of the best Chinese restaurants in the world and is known for his mastery of classic dishes and use of fresh ingredients.",
         "likes": 900,
-        "num_recipes": 4,
-        "years_experience": 25
+        "num_recipes": 3,
+        "years_experience": 25,
+        "recipe": [
+            {
+                "id": 1,
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "dried chili pepper",
+                    "soy sauce",
+                    "rice wine"
+                ],
+                "cooking_method": "Marinate chicken with soy sauce and rice wine, then stir-fry with dried chili pepper and peanuts.",
+                "rating": 4.5,
+                "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2014/11/kung-pao-chicken-recipe-3.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "tofu",
+                    "bamboo shoots",
+                    "mushrooms",
+                    "eggs",
+                    "vinegar"
+                ],
+                "cooking_method": "Simmer tofu, bamboo shoots, and mushrooms in chicken broth, then add beaten eggs and vinegar.",
+                "rating": 4.0,
+                "image_url": "https://www.seriouseats.com/thmb/mKW8WlJ1KvU5H6U5e6gOfW6jKwE=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/hot-and-sour-soup-15-2500-1-f3e3fa77a20b47c9b98dd03b17ef09b0.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "fermented bean paste",
+                    "Sichuan peppercorns",
+                    "garlic"
+                ],
+                "cooking_method": "Brown ground pork with garlic and Sichuan peppercorns, then stir in fermented bean paste and cubed tofu.",
+                "rating": 4.3,
+                "image_url": "https://www.seriouseats.com/thmb/FIuX9YFWTXVLf0h0QdovJ-HZBrs=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/mapo-tofu-19-2500-2-8a60c92a87af4dfda0a69f9c632126ab.jpg"
+            }
+            
+        ]
     },
     {
         "id": "6",
         "name": "Chef Jenny Zhang",
-        "picture": "https://example.com/chef-jenny-zhang.jpg",
+        "picture": "https://www.reviewjournal.com/wp-content/uploads/2023/02/17488478_web1_web_M.Y.-Asia_Martin-Yan-Dishes.jpg?crop=1",
         "bio": "Chef Jenny Zhang is a young and talented chef who has a passion for creating delicious and healthy Chinese dishes. She has worked in some of the top restaurants in China and has won several awards for her innovative dishes.",
         "likes": 600,
-        "num_recipes": 4,
-        "years_experience": 8
+        "num_recipes": 3,
+        "years_experience": 8,
+        "recipe": [
+            {
+                "id": 1,
+                "name": "Kung Pao Chicken",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "dried chili pepper",
+                    "soy sauce",
+                    "rice wine"
+                ],
+                "cooking_method": "Marinate chicken with soy sauce and rice wine, then stir-fry with dried chili pepper and peanuts.",
+                "rating": 4.5,
+                "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2014/11/kung-pao-chicken-recipe-3.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Hot and Sour Soup",
+                "ingredients": [
+                    "tofu",
+                    "bamboo shoots",
+                    "mushrooms",
+                    "eggs",
+                    "vinegar"
+                ],
+                "cooking_method": "Simmer tofu, bamboo shoots, and mushrooms in chicken broth, then add beaten eggs and vinegar.",
+                "rating": 4.0,
+                "image_url": "https://www.seriouseats.com/thmb/mKW8WlJ1KvU5H6U5e6gOfW6jKwE=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/hot-and-sour-soup-15-2500-1-f3e3fa77a20b47c9b98dd03b17ef09b0.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Mapo Tofu",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "fermented bean paste",
+                    "Sichuan peppercorns",
+                    "garlic"
+                ],
+                "cooking_method": "Brown ground pork with garlic and Sichuan peppercorns, then stir in fermented bean paste and cubed tofu.",
+                "rating": 4.3,
+                "image_url": "https://www.seriouseats.com/thmb/FIuX9YFWTXVLf0h0QdovJ-HZBrs=/1600x1067/filters:no_upscale():max_bytes(150000):strip_icc()/mapo-tofu-19-2500-2-8a60c92a87af4dfda0a69f9c632126ab.jpg"
+            }
+            
+        ]
     }
 ]
