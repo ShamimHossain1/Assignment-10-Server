@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "name": "Chef John Smith",
+        "picture": "https://example.com/chef-john-smith.jpg",
+        "bio": "Chef John Smith is a renowned chef with over 20 years of experience in Chinese cuisine. He has worked in top-rated restaurants in China and has won several awards for his culinary skills.",
+        "likes": 1000,
+        "num_recipes": 4,
+        "years_experience": 20
+    },
+    {
+        "id": "2",
+        "name": "Chef Sarah Lee",
+        "picture": "https://example.com/chef-sarah-lee.jpg",
+        "bio": "Chef Sarah Lee is a talented chef who specializes in Sichuan cuisine. She has trained under top chefs in China and has a unique approach to cooking that combines traditional techniques with modern flavors.",
+        "likes": 750,
+        "num_recipes": 4,
+        "years_experience": 15
+    },
+    {
+        "id": "3",
+        "name": "Chef James Wong",
+        "picture": "https://example.com/chef-james-wong.jpg",
+        "bio": "Chef James Wong is a master chef who has been cooking Chinese cuisine for over 30 years. He is known for his authentic Cantonese dishes and his use of fresh ingredients to create bold flavors.",
+        "likes": 1200,
+        "num_recipes": 4,
+        "years_experience": 30
+    },
+    {
+        "id": "4",
+        "name": "Chef Mei Lin",
+        "picture": "https://example.com/chef-mei-lin.jpg",
+        "bio": "Chef Mei Lin is a rising star in the culinary world, known for her innovative approach to Chinese cuisine. She has worked in top-rated restaurants in both China and the United States and has won several awards for her unique dishes.",
+        "likes": 500,
+        "num_recipes": 4,
+        "years_experience": 10
+    },
+    {
+        "id": "5",
+        "name": "Chef David Chen",
+        "picture": "https://example.com/chef-david-chen.jpg",
+        "bio": "Chef David Chen is a chef with over 25 years of experience in Chinese cuisine. He has worked in some of the best Chinese restaurants in the world and is known for his mastery of classic dishes and use of fresh ingredients.",
+        "likes": 900,
+        "num_recipes": 4,
+        "years_experience": 25
+    },
+    {
+        "id": "6",
+        "name": "Chef Jenny Zhang",
+        "picture": "https://example.com/chef-jenny-zhang.jpg",
+        "bio": "Chef Jenny Zhang is a young and talented chef who has a passion for creating delicious and healthy Chinese dishes. She has worked in some of the top restaurants in China and has won several awards for her innovative dishes.",
+        "likes": 600,
+        "num_recipes": 4,
+        "years_experience": 8
+    }
+]
